@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8874E0"
+    tools:context=".activity.ThongTinKH">
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    >
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="#383808"
+        android:text="Thông tin Khách Hàng"
+        android:textSize="30sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edtTenKhachhang"
+            android:hint="Nhập tên khách hàng"
+            android:inputType="text"
+            android:background="@drawable/botron_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edtSodt"
+            android:hint="Nhập tên số điện thoại"
+            android:inputType="phone"
+            android:background="@drawable/botron_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edtEmail"
+            android:hint="Nhập Email"
+            android:background="@drawable/botron_edt"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edtDiachi"
+            android:hint="Nhập địa chỉ khách hàng"
+            android:inputType="text"
+            android:background="@drawable/botron_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFC"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnXacnhan"
+            android:background="@drawable/botron_button"
+            android:text="Xác nhận"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textSize="18sp"
+            android:textColor="#FFFFFC"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnTrove"
+            android:background="@drawable/botron_black"
+            android:layout_gravity="center"
+            android:text="Trở về"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

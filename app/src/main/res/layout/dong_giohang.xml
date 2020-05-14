@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+
+    android:weightSum="10"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_margin="5dp"
+            android:id="@+id/imgGiohang"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textColor="#0F0F0F"
+            android:text="Ten mon hang"
+            android:textSize="25sp"
+            android:id="@+id/txttengiohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/txtGiagiohang"
+            android:textColor="#6B58B1"
+            android:textSize="15sp"
+            android:text="Gia cua hang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:focusable="false"
+                android:text="-"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/btnMinus"
+                android:layout_margin="5dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:focusable="false"
+                android:text="1"
+                android:background="@null"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/btnValues"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:focusable="false"
+                android:text="+"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/btnPlus"
+                android:layout_margin="5dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

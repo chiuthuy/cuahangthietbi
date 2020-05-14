@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LaptopActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Ipad"
+        android:id="@+id/toolbarLaptop"
+        app:titleTextColor="#F7F7F3"
+        android:background="#3245B1"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:id="@+id/lsvLaptop"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
